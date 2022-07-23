@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: white;
+    background-color: rgb(95,207,128);
+  }
+  #container{
+    position: absolute;
+    top: 14%;
+    left: 10%;
+    right: 10%;
+    width: 80%;
+    
+  }
+  .quote {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.9;
+    position: relative;
+    margin: 0;
+    user-select: none;
+    } 
+     .quote:before {
+    content: "//";
+    top: .25em;
+    left: -.9em;
+  }  
+  .quote:after {
+    content: ",,";
+    bottom: -.1em;
+    margin-left: .1em;
+    position: absolute;
+  }
+
+  .source {
+    font-size: 2.5rem;
+    letter-spacing: 0.05em;
+    line-height: 1.1;
+    text-align: right;
+    margin-right: 4em;
+  }
+  .source:before {
+    content: "—";
+  }
+  .copyright {
+    font-size: 2.5rem;
+    font-style: italic;
+  }
+  .copyright:before {
+    content: ", ";
+    font-style: normal;
+  }
+  .year:before {
+    content: ", ";
+    font-style: normal;
+  }
+  
+  .btn {
+    font-size: 1.5rem;;
+margin: 44px;
+    width: fit-content;
+    display: inline-block;
+    left: 50%;
+ cursor: pointer;
+    bottom: 150px;
+    border-radius: 9px;
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: rgba(146, 16, 16, 0);
+    padding: 15px 0;
+    transition: .5s ;
+  }
+  .btn:hover {
+    background-color: rgba(255,255,255,.25);
+  }
+  
+  
